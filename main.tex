@@ -14,7 +14,7 @@
 
 %\documentclass[12pt,a4paper]{report}
 
-\usepackage[lmargin=3.81cm,tmargin=2.54cm,rmargin=2.54cm,bmargin=2.52cm]{geometry}
+\usepackage[lmargin=2.54cm,tmargin=1cm,rmargin=2.54cm,bmargin=1cm]{geometry}
 \usepackage{mathptmx}
 
 \begin{document}
@@ -52,15 +52,21 @@ School of Electronic and Electrical Engineering\\[2cm]
 
 \chapter{Introduction}
 In this coursework, digital filters will be implemented in MATLAB to remove noise from 
-\\Electrocardiogram (ECG) signals. ECG
-\chapter{Main Body}
-Below, two plots can be seen. The first plot
+Electrocardiogram (ECG) signals. The file \textbf{ECGData1.mat} will be used for the purposes of this coursework. The diagnosis for this data set was premature ventricular contraction (PVC), in a 69 year-old male
+\chapter{Original and Noisy ECG Signals}
+Below, two plots can be seen. 
+\\The first plot is the original ECG signal, and the second is the same signal, but with added noise.
 \begin{center}
 %\centering
-\includegraphics[width=18cm]{graphics/original_noisy_side_by_side.png}
+\includegraphics[width=10cm]{graphics/orig.png}
+\includegraphics[width=10cm]{graphics/noisy.png}
 \end{center}
-
-
+\chapter{Heart Rate Calculation}
+The heart rate can be calculated using the number of R-peaks in the ECG signals and knowledge of the timeframe of the signal recorded.
+Since 12 R-peaks can be seen in both signals and the timeframe of the recorded signals is 10 seconds, we use this formula to calculate the heart rate in beats per minute (bpm):
+\begin{center}
+    $\textit{Heart Rate} = \frac{\textit{Number of R-peaks}}{\textit{Timeframe}} \times 60 = \frac{12}{10} \times 60 = 72$ bpm
+\end{center}
 \end{document}
 % ----------------------------------------------------------------
 
