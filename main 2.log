@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.13)  11 APR 2025 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.13)  4 APR 2025 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -187,14 +187,14 @@ Package caption Info: End \AtBeginDocument code.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(14.22636pt, 571.61589pt, 28.45274pt)
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
 * v-part:(T,H,B)=(0.0pt, 794.96999pt, 0.0pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=571.61589pt
+* \textwidth=472.03123pt
 * \textheight=794.96999pt
-* \oddsidemargin=-58.04362pt
-* \evensidemargin=-58.04362pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
 * \topmargin=-104.14378pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
@@ -272,79 +272,59 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 [3
 
 ]
-<graphics/noisy_fft.png, id=25, 1124.2pt x 843.15pt>
-File: graphics/noisy_fft.png Graphic file (type png)
-<use graphics/noisy_fft.png>
-Package pdftex.def Info: graphics/noisy_fft.png  used on input line 75.
+<graphics/fft_noisy.png, id=25, 1124.2pt x 843.15pt>
+File: graphics/fft_noisy.png Graphic file (type png)
+<use graphics/fft_noisy.png>
+Package pdftex.def Info: graphics/fft_noisy.png  used on input line 72.
 (pdftex.def)             Requested size: 455.24408pt x 341.43529pt.
+
+Overfull \hbox (354.87427pt too wide) in paragraph at lines 71--73
+\OT1/ptm/m/n/10.95 hum at 60Hz, due to the data be-ing recorded in the USA, as well as the high-frequency [] 
+ []
+
+
+/Users/ayman/Desktop/Uni/Digital coursework/eee339-dsp-coursework/main.tex:73: LaTeX Error: \begin{document} ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 \end{center}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/ayman/Desktop/Uni/Digital coursework/eee339-dsp-coursework/main.tex:73: Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.73 \end{center}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
 
 
 [4
 
- <./graphics/noisy_fft.png (PNG copy)>]
-<graphics/fir_o5.png, id=30, 1124.2pt x 843.15pt>
-File: graphics/fir_o5.png Graphic file (type png)
-<use graphics/fir_o5.png>
-Package pdftex.def Info: graphics/fir_o5.png  used on input line 80.
-(pdftex.def)             Requested size: 398.33858pt x 298.74783pt.
-<graphics/iir_o5.png, id=31, 1124.2pt x 843.15pt>
-File: graphics/iir_o5.png Graphic file (type png)
-<use graphics/iir_o5.png>
-Package pdftex.def Info: graphics/iir_o5.png  used on input line 81.
-(pdftex.def)             Requested size: 398.33858pt x 298.74783pt.
-
-
-[5
-
- <./graphics/fir_o5.png (PNG copy)> <./graphics/iir_o5.png (PNG copy)>]
-<graphics/four_signals.png, id=35, 2951.025pt x 1686.3pt>
-File: graphics/four_signals.png Graphic file (type png)
-<use graphics/four_signals.png>
-Package pdftex.def Info: graphics/four_signals.png  used on input line 88.
-(pdftex.def)             Requested size: 654.41338pt x 373.9462pt.
-
-Overfull \hbox (82.79749pt too wide) in paragraph at lines 85--89
-[] 
- []
-
-
-
-[6
-
- <./graphics/four_signals.png (PNG copy)>]
-<graphics/notched_fft.png, id=40, 2951.025pt x 1686.3pt>
-File: graphics/notched_fft.png Graphic file (type png)
-<use graphics/notched_fft.png>
-Package pdftex.def Info: graphics/notched_fft.png  used on input line 93.
-(pdftex.def)             Requested size: 569.05511pt x 325.16054pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
-
- []
-
-
-
-[7
-
- <./graphics/notched_fft.png (PNG copy)>] (./main.aux)
+ <./graphics/fft_noisy.png (PNG copy)>] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4342 strings out of 473190
- 76904 string characters out of 5715800
- 552603 words of memory out of 5000000
- 27558 multiletter control sequences out of 15000+600000
- 584903 words of font info for 82 fonts, out of 8000000 for 9000
+ 4310 strings out of 473190
+ 76080 string characters out of 5715800
+ 551607 words of memory out of 5000000
+ 27530 multiletter control sequences out of 15000+600000
+ 583753 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,5n,93p,379b,215s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 513966 bytes).
+ 79i,5n,93p,319b,215s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (5 pages, 202749 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
